@@ -541,13 +541,12 @@ video {
 	width: 100px;
 	/*same as the height*/
 	height: 40px;
-	
+	/*same as width*/
 	color: #888;
 	border: 1px solid #ffffff;
-	
-	color: #ffffff;
+	/*same color as background*/
 	font-size: 1.1em;
-	
+	/*set the border-radius at half the size of the width and height*/
 	border-radius :35;
 }
 
