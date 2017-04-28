@@ -558,11 +558,65 @@ video {
 }
 
 
+/* Desktops and laptops */
+
+@media only screen and (min-width: 1224px) {
+	/* Styles */
+	video {
+		width:100%;
+	}
+}
 
 
 
+/* ----- footer ----- */
+
+footer {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	background-color: #3c3c3c;
+}
+
+footer a:link {
+	color: #959595;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #959595;
+}
+
+footer a:hover {
+	color: #ffffff;
+	
+}
 
 
+footer a:active {
+	color: #ffffff;
+	
+}
+
+.copyright {
+	width: 100%;
+	color: #959595;
+}
+
+.copyright p {
+	margin: 0;
+}
+
+.fa-facebook-square {
+	font-size: 2em;
+	margin: 20px 5px 0 5px;
+	color: #959595;
+}
+
+
+.fa-facebook-square: hover {
+	color: #ffffff;
+}
 
 
 
